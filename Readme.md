@@ -1,6 +1,6 @@
 # Jira Assignment #3.
 <p align="justify">
-<b>Goal</b> : build an Wordpress webserver infrastructure.
+<b>Goal</b> : build Wordpress webserver infrastructure.
 <b>Structure</b> : 2 Tier Application, where 1st Tier is a Webserver and Application and 2nd Tier is Database server.
 Tool used for creating infrastructure : <b>Terraform</b>
 Split 2 Tiers into 2 modules: Main module (containing Network and Public components) and Child Module containing Database and all Private network components(such as - SG, RT, subnets etc)
