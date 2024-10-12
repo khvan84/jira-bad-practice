@@ -1,4 +1,4 @@
-<span style="color: green;">### Jira Assignment #3.</span>
+<span style="color: green;"> ### Jira Assignment #3.</span>
 <p align="justify">
 <b>Goal</b> : build an Wordpress webserver infrastructure.
 <b>Structure</b> : 2 Tier Application, where 1st Tier is a Webserver and Application and 2nd Tier is Database server.
