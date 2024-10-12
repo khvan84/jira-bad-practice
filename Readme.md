@@ -9,6 +9,7 @@ The purpose is to seperate the Database infrastructure apart from the public
 Some key components used: Subnet group(3 private subnets), DB SG has security rule to EC2 SG with port 3306.    
 The SSH port to Wordspress is opened to any location for demonstrating purposes, and has to be set to certain IP or /MyIP option.  
 </p>
+
 In this demo I used **RDS DB** with configurations below:  
 **RDS MYSQL**  
 ver: *8.0.35*  
