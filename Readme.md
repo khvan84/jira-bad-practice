@@ -38,31 +38,31 @@ Application name: **Wordpress**
 **mysql --user=admin --password=adminadmin wordpress**
 
 ## How to launch Wordpress Webserver:
-1.sudo yum install -y httpd
-2.sudo service httpd start
-3.wget https://wordpress.org/latest.tar.gz
-4.tar -xzf latest.tar.gz
-5.cd wordpress
-6.cp wp-config-sample.php wp-config.php
-7.vi wp-config.php
+**1.sudo yum install -y httpd**  
+**2.sudo service httpd start**  
+**3.wget https://wordpress.org/latest.tar.gz**  
+**4.tar -xzf latest.tar.gz**  
+**5.cd wordpress**  
+**6.cp wp-config-sample.php wp-config.php**  
+**7.vi wp-config.php**
 
-8.Edit the database configuration by changing the following lines:
+**8.Edit the database configuration by changing the following lines:**  
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
+// ** MySQL settings - You can get this info from your web host ** //  
+/** The name of the database for WordPress */  
 define( 'DB_NAME', 'wordpress' );
 
-/** MySQL database username */
-define( 'DB_USER', 'admin' );
+/** MySQL database username */  
+define( 'DB_USER', 'admin' );  
 
-/** MySQL database password */
+/** MySQL database password */  
 define( 'DB_PASSWORD', 'adminadmin' );
 
-/** MySQL hostname */
+/** MySQL hostname */  
 define( 'DB_HOST', 'localhost' );  #copy-paste endpoint for localhost located in RDS DB tab - configuration menu
 
 
-9.The second configuration section you need to configure is the Authentication Unique Keys and Salts. It looks as follows in the configuration file:
+**9.The second configuration section you need to configure is the Authentication Unique Keys and Salts. It looks as follows in the configuration file:**  
 /**#@+
  * Authentication Unique Keys and Salts.
  *
