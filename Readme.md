@@ -29,7 +29,7 @@ Type : *t2.micro*
 AMI : *AMZ Linix 2 AMI (HVM)*  
 Data resource for autoupdate - *yes*  
 
-Webserver: **httpd (Apache)**
+Webserver: **httpd (Apache)**  
 Application: **Wordpress**
 
 ## How to Access Wordpress DB:
