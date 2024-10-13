@@ -19,7 +19,7 @@ ver: *8.0.35*
 type: *db.t3.micro*  
 storage : *20GB*  
 Multi AZ - *no* (Free Tier)  
-Database Subnet Group - *True (3 Private Subnet)*  
+Database Subnet Group - *True (3 Private Subnets)*  
 
 For Wordpress' Webserver and Application I used:  
 **AMZ EC2**  
