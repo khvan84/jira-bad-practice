@@ -10,7 +10,7 @@ Tool used for creating infrastructure : <b>Terraform</b>
 The purpose is to seperate the Database infrastructure apart from the public
 
 Some key components used: Database Subnet group(3 private subnets), DB SG has security ingress/egress rule targeting EC2 SG : port 3306 (255.255.255.255/32).   
-The SSH port for Wordspress is opened to any location(0.0.0.0/0) for demonstrating purposes, and has to be set to /MyIP option.  
+The SSH port for Wordspress EC2 is opened to any location(0.0.0.0/0) for demonstrating purposes, and has to be set to /MyIP option after launch.  
 </p>
 
 In this demo I used **RDS DB** with configurations below:  
