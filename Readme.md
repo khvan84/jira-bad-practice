@@ -30,7 +30,7 @@ AMI : *AMZ Linix 2 AMI (HVM)*
 Data resource for autoupdate - *yes*  
 
 Webserver: **httpd (Apache)**
-Application name: **Wordpress**
+Application: **Wordpress**
 
 ## How to Access Wordpress DB:
 **sudo yum install -y mysql**  
