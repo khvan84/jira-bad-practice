@@ -34,7 +34,9 @@ Application name: **Wordpress**
 
 ## How to Access Wordpress DB:
 sudo yum install -y mysql
-export MYSQL_HOST=<your-endpoint>
+
+export MYSQL_HOST=<your-endpoint> #go RDS, your DB, configuration tab
+
 mysql --user=admin --password=adminadmin wordpress
 
 ## How to launch Wordpress Webserver:
