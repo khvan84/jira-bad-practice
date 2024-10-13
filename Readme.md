@@ -18,7 +18,7 @@ In this demo I used **RDS DB** with configurations below:
 ver: *8.0.35*  
 type: *db.t3.micro*  
 storage : *20GB*  
-Multi AZ - *no* (Free Tier)  
+Multi AZ - *no* (Free Tier)  - to allow replica and Standby DB, this option needs to be changed to "true"(However, Multi AZ option is not free Tier)
 Database Subnet Group - *True (3 Private Subnets)*  
 
 For Wordpress' Webserver and Application I used:  
