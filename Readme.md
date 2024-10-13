@@ -37,7 +37,7 @@ Application: **Wordpress**
 **export MYSQL_HOST=your-endpoint**   
 **mysql --user=admin --password=adminadmin wordpress**
 
-## How to launch Wordpress Webserver:
+## How to deploy Wordpress :  
 **1.sudo yum install -y httpd**  
 **2.sudo service httpd start**  
 **3.wget https://wordpress.org/latest.tar.gz**  
