@@ -6,10 +6,10 @@
 
 Tool used for creating infrastructure : <b>Terraform</b>
   
-Split 2 Tiers into 2 modules: Main module (containing Network and Public components) and Child Module containing Database and all Private network components(such as - SG, RT, subnets etc)
+3 modules: Root module (Public network and it's components), VPC module and Database Module containing Database and all Private network components(such as - SG, RT, private subnets etc)
 The purpose is to seperate the Database infrastructure apart from the public
 
-Some key components used: Subnet group(3 private subnets), DB SG has security group ingress rule - EC2 SG : port 3306.    
+Some key components used: Subnet group(3 private subnets), DB SG has security group ingress/egress rule - EC2 SG : port 3306.    
 The SSH port for Wordspress is opened to any location(0.0.0.0/0) for demonstrating purposes, and has to be set to /MyIP option.  
 </p>
 
@@ -89,5 +89,8 @@ https://api.wordpress.org/secret-key/1.1/salt/
 *12.sudo cp -r wordpress/* /var/www/html/*  
 **13.sudo service httpd restart**  
 **14.copy-paste your dns hostname in the browser, login with credentials: admin, adminadmin**
+
+Mysql and httpd are preinstalled and enabled through userdata.
+
 
 <img width="741" alt="Screenshot 2024-10-11 at 11 42 56 PM" src="https://github.com/user-attachments/assets/285c794a-b421-46a6-ad47-b49ae55c5c77">
