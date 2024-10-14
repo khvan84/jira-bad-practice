@@ -95,3 +95,4 @@ Mysql and httpd are preinstalled and enabled through userdata.
 To ensure everything installed properly run: **sudo cat /var/log/cloud-init-output.log** after running Terraform apply
 
 <img width="741" alt="Screenshot 2024-10-11 at 11 42 56 PM" src="https://github.com/user-attachments/assets/285c794a-b421-46a6-ad47-b49ae55c5c77">
+<img width="1216" alt="Screenshot 2024-10-14 at 2 17 19 AM" src="https://github.com/user-attachments/assets/82be4b13-a3b9-4fd0-867d-d13b97800d67">
