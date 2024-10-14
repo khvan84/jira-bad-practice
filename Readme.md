@@ -8,7 +8,7 @@ Tool used for creating infrastructure : <b>Terraform</b>
   
 6 modules: Root module (Main module), VPC module, Public network module, EC2 module, Private Network Module and Database Module.  
 
-The purpose is to seperate the Database infrastructure apart from the public network
+The purpose is to seperate Database from the public network
 
 Database Subnet group(3 private subnets), DB SG has security ingress/egress rule targeting EC2 SG : port 3306 (255.255.255.255/32).   
 The SSH port for Wordspress EC2 is opened to any location(0.0.0.0/0) for demonstrating purposes, and has to be set to /MyIP option after launch.  
