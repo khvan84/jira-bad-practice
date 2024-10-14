@@ -6,7 +6,8 @@
 
 Tool used for creating infrastructure : <b>Terraform</b>
   
-4 modules: Root module (Main module), VPC module, Webserver Module(Public network) and Database Module(Private network) each module has security and network seperated respectively (such as - SG, RT, private subnets etc)
+6 modules: Root module (Main module), VPC module, Public network module, EC2 module, Private Network Module and Database Module.  
+
 The purpose is to seperate the Database infrastructure apart from the public network
 
 Some key components used: Database Subnet group(3 private subnets), DB SG has security ingress/egress rule targeting EC2 SG : port 3306 (255.255.255.255/32).   
