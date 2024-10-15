@@ -92,7 +92,7 @@ https://api.wordpress.org/secret-key/1.1/salt/
 **14.copy-paste your dns hostname in the browser, login with credentials: admin, adminadmin**
 
 Mysql and httpd are preinstalled and enabled through userdata.  
-To ensure everything installed properly run: **sudo cat /var/log/cloud-init-output.log** after running Terraform apply
+To ensure everything installed properly - run: **sudo cat /var/log/cloud-init-output.log** after running Terraform apply
 
 <img width="741" alt="Screenshot 2024-10-11 at 11 42 56 PM" src="https://github.com/user-attachments/assets/285c794a-b421-46a6-ad47-b49ae55c5c77">
 <img width="1216" alt="Screenshot 2024-10-14 at 2 17 19 AM" src="https://github.com/user-attachments/assets/82be4b13-a3b9-4fd0-867d-d13b97800d67">
