@@ -11,7 +11,7 @@ Tool used for creating infrastructure : <b>Terraform</b>
 The purpose is to seperate Database from the public network
 
 Database Subnet group(3 private subnets), DB SG has security ingress/egress rule targeting EC2 SG : port 3306 (255.255.255.255/32).   
-SSH port for Wordspress EC2 is opened to any location(0.0.0.0/0) for demonstrating purposes, and has to be set to /MyIP option after launch.  
+SSH port for Wordpress EC2 is opened to any location(0.0.0.0/0) for demonstrating purposes, and has to be set to /MyIP option after launch.  
 </p>
 
 In this demo I used **RDS DB** with configurations below:  
@@ -19,7 +19,7 @@ In this demo I used **RDS DB** with configurations below:
 ver: *8.0.35*  
 type: *db.t3.micro*  
 storage : *20GB*  
-Multi AZ - *no* (Free Tier)  - to allow replica and Standby DB, this option needs to be changed to "true"(However, Multi AZ option is not free Tier)  
+Multi AZ - *no* (Free Tier)  - to allow replica and Standby DB, this option needs to be changed to "true"(However, Multi AZ option is not a free Tier)  
 Database Subnet Group - *yes (3 Private Subnets)*  
 
 For Wordpress' Webserver and Application server I used:  
